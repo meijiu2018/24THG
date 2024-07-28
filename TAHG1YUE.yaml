@@ -5,120 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本实验性 专线, server: shdata1.fc-smartcloud.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 🇸🇬 新加坡实验性 专线, server: gzdata1.fc-smartcloud.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 🇺🇲 美国实验性 专线, server: shdata1.fc-smartcloud.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 🇯🇵 日本高级+IEPL+中继+3, server: shdata1.fc-smartcloud.xyz, port: 12013, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 🇨🇳 台湾高级+专线, server: gzdata1.fc-smartcloud.xyz, port: 12041, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 🇰🇷 韩国标准+专线, server: shdata1.fc-smartcloud.xyz, port: 11071, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 🇹🇭 泰国标准+专线, server: gzdata1.fc-smartcloud.xyz, port: 11074, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: e8fd493134.m.ctrip.com}, udp: true}
-  - {name: 大阪, server: 791ffcdafeb8ff81.cdn.jiashule.com, port: 48434, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
-  - {name: 🇸🇬 新加坡专线, server: 791ffcdafeb8ff81.cdn.jiashule.com, port: 41461, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
-  - {name: 🇸🇬 新加坡专线+2, server: 791ffcdafeb8ff81.cdn.jiashule.com, port: 25898, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
-  - {name: 东京专线, server: 2b010cf9dd3684af.cdn.jiashule.com, port: 48750, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
-  - {name: 东京专线+2, server: 2b010cf9dd3684af.cdn.jiashule.com, port: 26203, type: ss, cipher: aes-128-gcm, password: 73eaf9a7-4232-47a7-a74c-dfe035484304, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 01, server: bepshbgp01.004837963.xyz, port: 14131, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 02, server: bepshbgp01.004837963.xyz, port: 14132, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 03, server: bepshbgp01.004837963.xyz, port: 14133, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 04, server: bepshbgp01.004837963.xyz, port: 14134, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 05, server: bepshbgp01.004837963.xyz, port: 14135, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 06, server: bepshbgp01.004837963.xyz, port: 14136, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 07, server: bepshbgp01.004837963.xyz, port: 14137, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 08, server: bepshbgp01.004837963.xyz, port: 14138, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 09, server: bepshbgp01.004837963.xyz, port: 14139, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇺🇲 高级 专线 美国 10, server: bepshbgp01.004837963.xyz, port: 14140, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 高级 专线 韩国 01, server: bepshbgp01.004837963.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 高级 专线 韩国 02, server: bepshbgp01.004837963.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇨🇳 高级 专线 台湾 01, server: bepgzbgp01.004837963.xyz, port: 14151, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇨🇳 高级 专线 台湾 02, server: bepgzbgp01.004837963.xyz, port: 14152, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 02, server: bepshbgp01.004837963.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 03, server: bepshbgp01.004837963.xyz, port: 14123, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 香港实验性 IEPL 中继 1, server: gzdata1.fc-smartcloud.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
+  - {name: 🇯🇵 日本实验性 IEPL 中继 1, server: shdata1.fc-smartcloud.xyz, port: 10002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
+  - {name: 🇸🇬 新加坡实验性 IEPL 中继 1, server: gzdata1.fc-smartcloud.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
+  - {name: 🇺🇲 美国实验性 IEPL 中继 1, server: shdata1.fc-smartcloud.xyz, port: 10004, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
+  - {name: 🇺🇲 美国高级 IEPL 中继 3, server: shdata1.fc-smartcloud.xyz, port: 12023, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 2658582e74.m.ctrip.com}, udp: true}
+  - {name: 🇭🇰 日用 专线 香港 日用, server: bepgzbgp01.004837963.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 日用 专线 狮城 日用, server: bepgzbgp01.004837963.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 日用 专线 日本 日用, server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 日用 专线 美国 日用, server: bepshbgp01.004837963.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
   - {name: 🇯🇵 高级 专线 日本 04, server: bepshbgp01.004837963.xyz, port: 14124, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 05, server: bepshbgp01.004837963.xyz, port: 14125, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 06, server: bepshbgp01.004837963.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 07, server: bepshbgp01.004837963.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 专线 日本 08, server: bepshbgp01.004837963.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 0711afca46.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 Taiwan 01, server: 183.239.109.254, port: 14786, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇨🇳 Taiwan 02, server: 183.239.109.254, port: 14790, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇨🇳 Taiwan 03, server: qc456987.xiyunchen.cn, port: 24789, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇨🇳 Taiwan 04, server: qc456987.xiyunchen.cn, port: 24790, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇯🇵 Japan 01, server: 183.239.109.254, port: 14788, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇯🇵 Japan 02, server: 183.239.109.254, port: 14792, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇺🇲 United States 01, server: 183.239.109.254, port: 14787, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇺🇲 United States 02, server: 183.239.109.254, port: 14793, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇺🇲 United States 03, server: qc456987.xiyunchen.cn, port: 24793, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇺🇲 United States 04, server: qc456987.xiyunchen.cn, port: 24794, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇸🇬 Singapore 01, server: 183.239.109.254, port: 14789, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇸🇬 Singapore 02, server: 183.239.109.254, port: 14791, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇸🇬 Singapore 03, server: qc456987.xiyunchen.cn, port: 24795, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇸🇬 Singapore 04, server: qc456987.xiyunchen.cn, port: 24796, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇰🇷 Korea 01, server: 183.239.109.254, port: 14794, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: 🇰🇷 Korea 02, server: qc456987.xiyunchen.cn, port: 24797, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: Antarctica 01, server: 183.239.109.254, port: 14796, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
+  - {name: Antarctica 02, server: qc456987.xiyunchen.cn, port: 24798, type: ss, cipher: chacha20-ietf-poly1305, password: a842a33c-226d-435c-9660-8158a0649080, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 日本实验性 专线
-      - 🇸🇬 新加坡实验性 专线
-      - 🇺🇲 美国实验性 专线
-      - 🇯🇵 日本高级+IEPL+中继+3
-      - 🇨🇳 台湾高级+专线
-      - 🇰🇷 韩国标准+专线
-      - 🇹🇭 泰国标准+专线
-      - 大阪
-      - 🇸🇬 新加坡专线
-      - 🇸🇬 新加坡专线+2
-      - 东京专线
-      - 东京专线+2
-      - 🇺🇲 高级 专线 美国 01
-      - 🇺🇲 高级 专线 美国 02
-      - 🇺🇲 高级 专线 美国 03
-      - 🇺🇲 高级 专线 美国 04
-      - 🇺🇲 高级 专线 美国 05
-      - 🇺🇲 高级 专线 美国 06
-      - 🇺🇲 高级 专线 美国 07
-      - 🇺🇲 高级 专线 美国 08
-      - 🇺🇲 高级 专线 美国 09
-      - 🇺🇲 高级 专线 美国 10
-      - 🇰🇷 高级 专线 韩国 01
-      - 🇰🇷 高级 专线 韩国 02
-      - 🇨🇳 高级 专线 台湾 01
-      - 🇨🇳 高级 专线 台湾 02
-      - 🇯🇵 高级 专线 日本 01
-      - 🇯🇵 高级 专线 日本 02
-      - 🇯🇵 高级 专线 日本 03
+      - 🇭🇰 香港实验性 IEPL 中继 1
+      - 🇯🇵 日本实验性 IEPL 中继 1
+      - 🇸🇬 新加坡实验性 IEPL 中继 1
+      - 🇺🇲 美国实验性 IEPL 中继 1
+      - 🇺🇲 美国高级 IEPL 中继 3
+      - 🇭🇰 日用 专线 香港 日用
+      - 🇯🇵 日用 专线 狮城 日用
+      - 🇯🇵 日用 专线 日本 日用
+      - 🇯🇵 日用 专线 美国 日用
       - 🇯🇵 高级 专线 日本 04
-      - 🇯🇵 高级 专线 日本 05
-      - 🇯🇵 高级 专线 日本 06
-      - 🇯🇵 高级 专线 日本 07
-      - 🇯🇵 高级 专线 日本 08
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇺🇲 United States 01
+      - 🇺🇲 United States 02
+      - 🇺🇲 United States 03
+      - 🇺🇲 United States 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇰🇷 Korea 01
+      - 🇰🇷 Korea 02
+      - Antarctica 01
+      - Antarctica 02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本实验性 专线
-      - 🇸🇬 新加坡实验性 专线
-      - 🇺🇲 美国实验性 专线
-      - 🇯🇵 日本高级+IEPL+中继+3
-      - 🇨🇳 台湾高级+专线
-      - 🇰🇷 韩国标准+专线
-      - 🇹🇭 泰国标准+专线
-      - 大阪
-      - 🇸🇬 新加坡专线
-      - 🇸🇬 新加坡专线+2
-      - 东京专线
-      - 东京专线+2
-      - 🇺🇲 高级 专线 美国 01
-      - 🇺🇲 高级 专线 美国 02
-      - 🇺🇲 高级 专线 美国 03
-      - 🇺🇲 高级 专线 美国 04
-      - 🇺🇲 高级 专线 美国 05
-      - 🇺🇲 高级 专线 美国 06
-      - 🇺🇲 高级 专线 美国 07
-      - 🇺🇲 高级 专线 美国 08
-      - 🇺🇲 高级 专线 美国 09
-      - 🇺🇲 高级 专线 美国 10
-      - 🇰🇷 高级 专线 韩国 01
-      - 🇰🇷 高级 专线 韩国 02
-      - 🇨🇳 高级 专线 台湾 01
-      - 🇨🇳 高级 专线 台湾 02
-      - 🇯🇵 高级 专线 日本 01
-      - 🇯🇵 高级 专线 日本 02
-      - 🇯🇵 高级 专线 日本 03
+      - 🇭🇰 香港实验性 IEPL 中继 1
+      - 🇯🇵 日本实验性 IEPL 中继 1
+      - 🇸🇬 新加坡实验性 IEPL 中继 1
+      - 🇺🇲 美国实验性 IEPL 中继 1
+      - 🇺🇲 美国高级 IEPL 中继 3
+      - 🇭🇰 日用 专线 香港 日用
+      - 🇯🇵 日用 专线 狮城 日用
+      - 🇯🇵 日用 专线 日本 日用
+      - 🇯🇵 日用 专线 美国 日用
       - 🇯🇵 高级 专线 日本 04
-      - 🇯🇵 高级 专线 日本 05
-      - 🇯🇵 高级 专线 日本 06
-      - 🇯🇵 高级 专线 日本 07
-      - 🇯🇵 高级 专线 日本 08
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇺🇲 United States 01
+      - 🇺🇲 United States 02
+      - 🇺🇲 United States 03
+      - 🇺🇲 United States 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇰🇷 Korea 01
+      - 🇰🇷 Korea 02
+      - Antarctica 01
+      - Antarctica 02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -136,40 +118,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本实验性 专线
-      - 🇸🇬 新加坡实验性 专线
-      - 🇺🇲 美国实验性 专线
-      - 🇯🇵 日本高级+IEPL+中继+3
-      - 🇨🇳 台湾高级+专线
-      - 🇰🇷 韩国标准+专线
-      - 🇹🇭 泰国标准+专线
-      - 大阪
-      - 🇸🇬 新加坡专线
-      - 🇸🇬 新加坡专线+2
-      - 东京专线
-      - 东京专线+2
-      - 🇺🇲 高级 专线 美国 01
-      - 🇺🇲 高级 专线 美国 02
-      - 🇺🇲 高级 专线 美国 03
-      - 🇺🇲 高级 专线 美国 04
-      - 🇺🇲 高级 专线 美国 05
-      - 🇺🇲 高级 专线 美国 06
-      - 🇺🇲 高级 专线 美国 07
-      - 🇺🇲 高级 专线 美国 08
-      - 🇺🇲 高级 专线 美国 09
-      - 🇺🇲 高级 专线 美国 10
-      - 🇰🇷 高级 专线 韩国 01
-      - 🇰🇷 高级 专线 韩国 02
-      - 🇨🇳 高级 专线 台湾 01
-      - 🇨🇳 高级 专线 台湾 02
-      - 🇯🇵 高级 专线 日本 01
-      - 🇯🇵 高级 专线 日本 02
-      - 🇯🇵 高级 专线 日本 03
+      - 🇭🇰 香港实验性 IEPL 中继 1
+      - 🇯🇵 日本实验性 IEPL 中继 1
+      - 🇸🇬 新加坡实验性 IEPL 中继 1
+      - 🇺🇲 美国实验性 IEPL 中继 1
+      - 🇺🇲 美国高级 IEPL 中继 3
+      - 🇭🇰 日用 专线 香港 日用
+      - 🇯🇵 日用 专线 狮城 日用
+      - 🇯🇵 日用 专线 日本 日用
+      - 🇯🇵 日用 专线 美国 日用
       - 🇯🇵 高级 专线 日本 04
-      - 🇯🇵 高级 专线 日本 05
-      - 🇯🇵 高级 专线 日本 06
-      - 🇯🇵 高级 专线 日本 07
-      - 🇯🇵 高级 专线 日本 08
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan 02
+      - 🇨🇳 Taiwan 03
+      - 🇨🇳 Taiwan 04
+      - 🇯🇵 Japan 01
+      - 🇯🇵 Japan 02
+      - 🇺🇲 United States 01
+      - 🇺🇲 United States 02
+      - 🇺🇲 United States 03
+      - 🇺🇲 United States 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 03
+      - 🇸🇬 Singapore 04
+      - 🇰🇷 Korea 01
+      - 🇰🇷 Korea 02
+      - Antarctica 01
+      - Antarctica 02
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
